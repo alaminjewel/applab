@@ -1,0 +1,65 @@
+@use 'variables' as *;
+@use 'extend' as *;
+
+header{
+  padding: 1rem 0;
+  nav{
+    .navbar-brand{
+      font-size: 1.85rem;
+      font-weight: 700;
+      color: $secondary !important;
+      span{
+        color: $orange;
+      }
+    }
+    .navbar-toggler{
+      &:focus{
+        outline: none;
+        box-shadow: none;
+      }
+    }
+    .offcanvas{
+      .offcanvas-header{
+        .offcanvas-title{
+          font-size: 1.85rem;
+          font-weight: 700;
+          color: $secondary !important;
+          span{
+            color: $orange;
+          }
+        }
+        .btn-close{
+          &:focus{
+            outline: none;
+            box-shadow: none;
+          }
+        }
+
+      }
+      .offcanvas-body{
+        .navbar-nav{
+          .nav-item{
+            .nav-link{
+              display: inline-block;
+              color: $primary;
+              font-size: 1rem;
+              font-weight: 400;
+              background-color: transparent;
+              padding: .625rem 1rem !important;
+              border-radius: 1.875rem;
+              border: .0625rem solid transparent;
+              transition: all 0.3s ease-in-out;
+              &:hover{
+                background-color: $primary;
+                color: #fff;
+                border-color: $primary;
+
+              }
+
+            }
+          }
+        }
+      }
+    }
+  }
+}

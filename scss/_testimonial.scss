@@ -1,0 +1,82 @@
+@use 'variables' as *;
+@use 'extend' as *;
+
+.testimonial-section{
+  padding: 5rem 0;
+  .img{
+    padding: 1.25rem;
+    img{}
+  }
+  .content{
+    h2{
+      @extend%h2;
+    }
+    p{
+      padding: 1rem 0;
+      @extend%p;
+    }
+  }
+  .review{
+    position: relative;
+    i{
+      color: $orange;
+    }
+    h3{
+      @extend%h3;
+      padding: 1rem 0;
+    }
+    p{
+      @extend%p;
+    }
+    .client-info{
+      margin-top: 1.25rem;
+      justify-content: flex-start;
+      align-items: center;
+      .c-img{
+        margin-right: 1.25rem;
+        img{
+          width: 5.625rem;
+          height: auto;
+        }
+      }
+      .name{
+        h3{
+          @extend%h3;
+        }
+        span{
+          @extend%p;
+        }
+      }
+    }
+    .swiper-button-prev{
+      position: absolute;
+      top: 85%;
+      left: 92%;
+      i{
+        font-size: 1.875rem;
+        color: $primary;
+        @media (max-width: $media-md) {
+          font-size: 1.5rem;
+        }
+      }
+      &:after{
+        content: "";
+      }
+    }
+    .swiper-button-next{
+      position: absolute;
+      top: 85%;
+      left: 100%;
+      i{
+        font-size: 1.875rem;
+        color: $primary;
+        @media (max-width: $media-md) {
+          font-size: 1.5rem;
+        }
+      }
+      &:after{
+        content: "";
+      }
+    }
+  }
+}

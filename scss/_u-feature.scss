@@ -1,0 +1,37 @@
+@use 'variables' as *;
+@use 'extend' as *;
+
+.u-feature{
+  padding: 5rem 0;
+  .content{
+    .header-content{
+      h2{
+        @extend%h2;
+      }
+      p{
+        @extend%p;
+        padding: 1rem 0;
+      }
+    }
+    .features{
+      padding-top: 2rem;
+      .feature{
+        @media(max-width: $media-sm){
+          text-align: center;
+        }
+        img{}
+        h3{
+          @extend%h3;
+          padding: 1rem 0;
+        }
+        p{
+          @extend%p;
+        }
+      }
+    }
+    .btn{
+      @extend%btn;
+      margin-top: 1rem;
+    }
+  }
+}

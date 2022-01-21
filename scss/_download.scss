@@ -1,0 +1,30 @@
+@use 'variables' as *;
+@use 'extend' as *;
+
+.download-section{
+  padding: 5rem 0;
+  .content{
+    h2{
+      @extend%h2;
+    }
+    p{
+      @extend%p;
+      padding: 1rem 0;
+    }
+    .images{
+      img{ 
+        @media(max-width: $media-md){
+          width: 40%;
+        }
+        @media(max-width: $media-sm){
+          width: 30%;
+        }
+      }
+
+    }
+  }
+  .img{
+    padding: 1.25rem;
+    img{}
+  }
+}

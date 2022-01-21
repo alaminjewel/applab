@@ -1,0 +1,40 @@
+@use 'variables' as *;
+@use 'extend' as *;
+
+.faq-section{
+  padding: 5rem 0;
+  .header-content{
+    text-align: center;
+    h2{
+      @extend%h2;
+    }
+    p{
+      @extend%p;
+      padding: 1rem 0;
+    }
+  }
+  
+  .accordion{
+    margin-top: 1.25rem;
+    .accordion-item{
+        margin-bottom: 1.25rem;
+        border: none;
+        .accordion-header{
+        }
+        .accordion-button{
+            @extend%h4;
+            background-color: $bg-gray;
+            padding: 1rem .625rem;
+            &:focus{
+              box-shadow: none;
+            }
+        }
+    }
+    .accordion-body{
+        background-color: $bg-gray;
+        p{
+            @extend%p;
+        }
+    }
+  }
+}

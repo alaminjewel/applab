@@ -1,0 +1,61 @@
+@use 'variables' as *;
+@use 'extend' as *;
+
+.pricing-section{
+  padding: 5rem 0;
+  .heading-content{
+    h2{
+      @extend%h2;
+    }
+    p{
+      @extend%p;
+      padding: 1rem 0;
+    }
+  }
+  .pricings{
+    padding-top: 1.25rem;
+    .price-card{
+      text-align: center;
+      overflow: hidden; 
+      border: .0625rem solid $bg-gray;
+      border-radius: .5rem;
+      box-shadow: 1px 1px 20px 2px rgb(227 227 227);
+
+      .heading-content{
+        padding: 1.25rem;
+        background-color: $bg-card;
+        h2{
+          @extend%h2;
+          span{
+            @extend%p;
+          }
+        }
+        h4{
+          @extend%p;
+          padding: .625rem 0 .5rem 0;
+          font-weight: 600;
+          color: $secondary;
+        }
+        p{
+          @extend%p;
+        }
+      }
+      ul{
+        padding: 1rem 0;
+        li{
+          &:not(:last-child){
+            margin-bottom: .5rem;
+          }
+            span{
+              @extend%p;
+            }
+            .btn{
+              margin: 1rem;
+              @extend%btn;
+            }
+        }
+      
+      }
+    }
+  }
+}

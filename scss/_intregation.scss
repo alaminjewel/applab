@@ -1,0 +1,22 @@
+@use 'variables' as *;
+@use 'extend' as *;
+
+.intregation-section{
+  padding: 5rem 0;
+  .img{
+    padding: 1.5rem;
+    img{}
+  }
+  .content{
+    h2{
+      @extend%h2;
+    }
+    p{
+      @extend%p;
+      padding: 1rem 0;
+    }
+    .btn{
+      @extend%btn;
+    }
+  }
+}

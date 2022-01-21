@@ -1,0 +1,43 @@
+
+@use 'variables' as *;
+@use 'extend' as *;
+
+footer {
+  padding: 2.5rem 0;
+  background: $primary;
+
+  .footer-nav {
+    padding-top: 1rem;
+    .nav-item {
+      margin: 0 .625rem;
+      .nav-link {
+        @extend%p;
+        color: #fff;
+        &:hover {
+          color: $orange;
+        }
+      }
+    }
+  }
+  .icon {
+    padding: .625rem 0;
+    li {
+      padding: .625rem;
+      i {
+        color: #fff;
+        font-size: 1.25rem;
+
+        &:hover {
+          color: $orange;
+        }
+      }
+    }
+  }
+  .txt {
+    p {
+      @extend%p;
+      font-size: 1rem;
+      color: rgb(149, 149, 149);
+    }
+  }
+}

@@ -1,0 +1,64 @@
+@use 'variables' as *;
+@use 'extend' as *;
+
+
+.hero-section{
+  background-image: url(../images/header-bg-1.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  .content{
+    @media(max-width: $media-sm){
+      padding-bottom: 1.25rem;
+    }
+    .icon-txt{
+      background-color: $bg-gray;
+      display: inline-block;
+      padding-right: .5rem;
+      border-radius: 1.875rem;
+      i{
+        font-size: 1rem;
+        color: $background;
+        &::before{
+          background-color: $yellow;
+          padding: .5rem;
+          border-radius: 50%;
+        }
+      }
+      span{
+        @extend%p;
+        padding: 0 .5rem;
+      }
+    }
+    h1{
+      @extend%h1;
+      padding-top: 1rem;
+
+      @media(max-width: $media-mb-l){
+        text-align: center;
+      }
+    }
+    p{
+      @extend%p;
+      padding: 1rem 0;
+    }
+    .links{
+      @media(max-width: $media-sm){
+        text-align: center;
+      }
+      .btn{
+        @extend%btn;
+      }
+      .link{
+        @extend%p;
+        color: $primary;
+        margin-left: 1rem;
+        font-weight: 500;
+
+      }
+    }
+  }
+  .img{
+    text-align: center;
+    vertical-align: middle;
+  }
+}

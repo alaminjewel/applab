@@ -1,0 +1,520 @@
+.pricing-section .pricings .price-card ul li .btn, .u-feature .content .btn, .intregation-section .content .btn, .hero-section .content .links .btn {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 400;
+  background: #001d3d;
+  padding: 0.625rem 1rem !important;
+  border-radius: 1.875rem;
+  border: 0.0625rem solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+.pricing-section .pricings .price-card ul li .btn:hover, .u-feature .content .btn:hover, .intregation-section .content .btn:hover, .hero-section .content .links .btn:hover {
+  color: #242f51;
+  border-color: #242f51;
+  background: transparent;
+}
+@media (max-width: 991px) {
+  .pricing-section .pricings .price-card ul li .btn, .u-feature .content .btn, .intregation-section .content .btn, .hero-section .content .links .btn {
+    font-size: 0.875rem;
+    padding: 0.625rem;
+  }
+}
+
+footer .footer-nav .nav-item .nav-link, footer .txt p, .download-section .content p, .faq-section .header-content p, .faq-section .accordion .accordion-body p, .testimonial-section .content p, .testimonial-section .review p, .testimonial-section .review .client-info .name span, .pricing-section .heading-content p, .pricing-section .pricings .price-card .heading-content h2 span, .pricing-section .pricings .price-card .heading-content h4, .pricing-section .pricings .price-card .heading-content p, .pricing-section .pricings .price-card ul li span, .u-feature .content .header-content p, .u-feature .content .features .feature p, .choose-section .header-content p, .choose-section .features .feature p, .intregation-section .content p, .feature-section .content p, .feature-section .content .features-lists .feature .content p, .feature-section .special-features p, .feature-section .special-features .special-feature-lists .special-feature p, .hero-section .content .icon-txt span, .hero-section .content p, .hero-section .content .links .link {
+  padding: 0;
+  margin: 0;
+  color: #616368;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.hero-section .content h1 {
+  padding: 0;
+  margin: 0;
+  color: #242f51;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+@media (max-width: 991px) {
+  .hero-section .content h1 {
+    font-size: 2.5rem;
+  }
+}
+@media (max-width: 767px) {
+  .hero-section .content h1 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 575px) {
+  .hero-section .content h1 {
+    font-size: 1.75rem;
+  }
+}
+
+.download-section .content h2, .faq-section .header-content h2, .testimonial-section .content h2, .pricing-section .heading-content h2, .pricing-section .pricings .price-card .heading-content h2, .u-feature .content .header-content h2, .choose-section .header-content h2, .intregation-section .content h2, .feature-section .content h2, .feature-section .special-features h2 {
+  padding: 0;
+  margin: 0;
+  color: #242f51;
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+@media (max-width: 991px) {
+  .download-section .content h2, .faq-section .header-content h2, .testimonial-section .content h2, .pricing-section .heading-content h2, .pricing-section .pricings .price-card .heading-content h2, .u-feature .content .header-content h2, .choose-section .header-content h2, .intregation-section .content h2, .feature-section .content h2, .feature-section .special-features h2 {
+    font-size: 1.875rem;
+  }
+}
+@media (max-width: 767px) {
+  .download-section .content h2, .faq-section .header-content h2, .testimonial-section .content h2, .pricing-section .heading-content h2, .pricing-section .pricings .price-card .heading-content h2, .u-feature .content .header-content h2, .choose-section .header-content h2, .intregation-section .content h2, .feature-section .content h2, .feature-section .special-features h2 {
+    font-size: 1.5rem;
+  }
+}
+
+.testimonial-section .review h3, .testimonial-section .review .client-info .name h3, .u-feature .content .features .feature h3, .choose-section .features .feature h3, .feature-section .content .features-lists .feature .content h3, .feature-section .special-features .special-feature-lists .special-feature h3 {
+  padding: 0;
+  margin: 0;
+  color: #242f51;
+  font-size: 1.5rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+@media (max-width: 991px) {
+  .testimonial-section .review h3, .testimonial-section .review .client-info .name h3, .u-feature .content .features .feature h3, .choose-section .features .feature h3, .feature-section .content .features-lists .feature .content h3, .feature-section .special-features .special-feature-lists .special-feature h3 {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 767px) {
+  .testimonial-section .review h3, .testimonial-section .review .client-info .name h3, .u-feature .content .features .feature h3, .choose-section .features .feature h3, .feature-section .content .features-lists .feature .content h3, .feature-section .special-features .special-feature-lists .special-feature h3 {
+    font-size: 1rem;
+  }
+}
+
+.faq-section .accordion .accordion-item .accordion-button, .carousel-section .content span {
+  padding: 0;
+  margin: 0;
+  color: #242f51;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.4;
+}
+@media (max-width: 767px) {
+  .faq-section .accordion .accordion-item .accordion-button, .carousel-section .content span {
+    font-size: 1rem;
+  }
+}
+
+header {
+  padding: 1rem 0;
+}
+header nav .navbar-brand {
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: #001d3d !important;
+}
+header nav .navbar-brand span {
+  color: #fcae61;
+}
+header nav .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+header nav .offcanvas .offcanvas-header .offcanvas-title {
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: #001d3d !important;
+}
+header nav .offcanvas .offcanvas-header .offcanvas-title span {
+  color: #fcae61;
+}
+header nav .offcanvas .offcanvas-header .btn-close:focus {
+  outline: none;
+  box-shadow: none;
+}
+header nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link {
+  display: inline-block;
+  color: #242f51;
+  font-size: 1rem;
+  font-weight: 400;
+  background-color: transparent;
+  padding: 0.625rem 1rem !important;
+  border-radius: 1.875rem;
+  border: 0.0625rem solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+header nav .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link:hover {
+  background-color: #242f51;
+  color: #fff;
+  border-color: #242f51;
+}
+
+.hero-section {
+  background-image: url(../images/header-bg-1.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+@media (max-width: 767px) {
+  .hero-section .content {
+    padding-bottom: 1.25rem;
+  }
+}
+.hero-section .content .icon-txt {
+  background-color: #f4f4ff;
+  display: inline-block;
+  padding-right: 0.5rem;
+  border-radius: 1.875rem;
+}
+.hero-section .content .icon-txt i {
+  font-size: 1rem;
+  color: #fffffc;
+}
+.hero-section .content .icon-txt i::before {
+  background-color: #feaa25;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+.hero-section .content .icon-txt span {
+  padding: 0 0.5rem;
+}
+.hero-section .content h1 {
+  padding-top: 1rem;
+}
+@media (max-width: 575px) {
+  .hero-section .content h1 {
+    text-align: center;
+  }
+}
+.hero-section .content p {
+  padding: 1rem 0;
+}
+@media (max-width: 767px) {
+  .hero-section .content .links {
+    text-align: center;
+  }
+}
+.hero-section .content .links .link {
+  color: #242f51;
+  margin-left: 1rem;
+  font-weight: 500;
+}
+.hero-section .img {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.carousel-section {
+  padding: 5rem 0;
+}
+.carousel-section .content {
+  text-align: center;
+}
+.carousel-section .content span {
+  color: #242f51;
+  font-weight: 600;
+}
+.carousel-section .swiper {
+  padding: 40px 0;
+  width: 100%;
+  height: 100%;
+}
+.carousel-section .swiper .swiper-wrapper {
+  align-items: center;
+}
+.carousel-section .swiper .swiper-wrapper .swiper-slide {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-section {
+  padding: 5rem 0;
+}
+.feature-section .content p {
+  padding: 1rem 0;
+}
+.feature-section .content .features-lists {
+  margin-top: 1rem;
+}
+.feature-section .content .features-lists .feature:not(:last-child) {
+  margin-bottom: 1.5rem;
+}
+.feature-section .content .features-lists .feature .content .red {
+  color: #f55767;
+}
+.feature-section .content .features-lists .feature .content .blue {
+  color: #2563ff;
+}
+.feature-section .content .features-lists .feature .content .green {
+  color: #40975f;
+}
+.feature-section .content .features-lists .feature .content p {
+  padding-top: 1rem;
+}
+.feature-section .special-features {
+  padding-top: 5rem;
+}
+.feature-section .special-features .special-feature-lists {
+  padding-top: 2rem;
+}
+@media (max-width: 767px) {
+  .feature-section .special-features .special-feature-lists .special-feature {
+    text-align: center;
+  }
+}
+.feature-section .special-features .special-feature-lists .special-feature .red {
+  color: #f55767;
+}
+.feature-section .special-features .special-feature-lists .special-feature .blue {
+  color: #2563ff;
+}
+.feature-section .special-features .special-feature-lists .special-feature .green {
+  color: #40975f;
+}
+.feature-section .special-features .special-feature-lists .special-feature h3 {
+  padding: 1rem 0;
+}
+.intregation-section {
+  padding: 5rem 0;
+}
+.intregation-section .img {
+  padding: 1.5rem;
+}
+.intregation-section .content p {
+  padding: 1rem 0;
+}
+.choose-section {
+  padding: 5rem 0;
+}
+.choose-section .header-content {
+  text-align: center;
+}
+.choose-section .header-content p {
+  padding: 1rem 0;
+}
+.choose-section .features {
+  padding-top: 1.875rem;
+}
+@media (max-width: 767px) {
+  .choose-section .features .feature {
+    text-align: center;
+  }
+}
+.choose-section .features .feature h3 {
+  padding: 1rem 0;
+}
+.u-feature {
+  padding: 5rem 0;
+}
+.u-feature .content .header-content p {
+  padding: 1rem 0;
+}
+.u-feature .content .features {
+  padding-top: 2rem;
+}
+@media (max-width: 767px) {
+  .u-feature .content .features .feature {
+    text-align: center;
+  }
+}
+.u-feature .content .features .feature h3 {
+  padding: 1rem 0;
+}
+.u-feature .content .btn {
+  margin-top: 1rem;
+}
+
+.pricing-section {
+  padding: 5rem 0;
+}
+.pricing-section .heading-content p {
+  padding: 1rem 0;
+}
+.pricing-section .pricings {
+  padding-top: 1.25rem;
+}
+.pricing-section .pricings .price-card {
+  text-align: center;
+  overflow: hidden;
+  border: 0.0625rem solid #f4f4ff;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 20px 2px #e3e3e3;
+}
+.pricing-section .pricings .price-card .heading-content {
+  padding: 1.25rem;
+  background-color: #f4f7f9;
+}
+.pricing-section .pricings .price-card .heading-content h4 {
+  padding: 0.625rem 0 0.5rem 0;
+  font-weight: 600;
+  color: #001d3d;
+}
+.pricing-section .pricings .price-card ul {
+  padding: 1rem 0;
+}
+.pricing-section .pricings .price-card ul li:not(:last-child) {
+  margin-bottom: 0.5rem;
+}
+.pricing-section .pricings .price-card ul li .btn {
+  margin: 1rem;
+}
+
+.testimonial-section {
+  padding: 5rem 0;
+}
+.testimonial-section .img {
+  padding: 1.25rem;
+}
+.testimonial-section .content p {
+  padding: 1rem 0;
+}
+.testimonial-section .review {
+  position: relative;
+}
+.testimonial-section .review i {
+  color: #fcae61;
+}
+.testimonial-section .review h3 {
+  padding: 1rem 0;
+}
+.testimonial-section .review .client-info {
+  margin-top: 1.25rem;
+  justify-content: flex-start;
+  align-items: center;
+}
+.testimonial-section .review .client-info .c-img {
+  margin-right: 1.25rem;
+}
+.testimonial-section .review .client-info .c-img img {
+  width: 5.625rem;
+  height: auto;
+}
+.testimonial-section .review .swiper-button-prev {
+  position: absolute;
+  top: 85%;
+  left: 92%;
+}
+.testimonial-section .review .swiper-button-prev i {
+  font-size: 1.875rem;
+  color: #242f51;
+}
+@media (max-width: 991px) {
+  .testimonial-section .review .swiper-button-prev i {
+    font-size: 1.5rem;
+  }
+}
+.testimonial-section .review .swiper-button-prev:after {
+  content: "";
+}
+.testimonial-section .review .swiper-button-next {
+  position: absolute;
+  top: 85%;
+  left: 100%;
+}
+.testimonial-section .review .swiper-button-next i {
+  font-size: 1.875rem;
+  color: #242f51;
+}
+@media (max-width: 991px) {
+  .testimonial-section .review .swiper-button-next i {
+    font-size: 1.5rem;
+  }
+}
+.testimonial-section .review .swiper-button-next:after {
+  content: "";
+}
+
+.faq-section {
+  padding: 5rem 0;
+}
+.faq-section .header-content {
+  text-align: center;
+}
+.faq-section .header-content p {
+  padding: 1rem 0;
+}
+.faq-section .accordion {
+  margin-top: 1.25rem;
+}
+.faq-section .accordion .accordion-item {
+  margin-bottom: 1.25rem;
+  border: none;
+}
+.faq-section .accordion .accordion-item .accordion-button {
+  background-color: #f4f4ff;
+  padding: 1rem 0.625rem;
+}
+.faq-section .accordion .accordion-item .accordion-button:focus {
+  box-shadow: none;
+}
+.faq-section .accordion .accordion-body {
+  background-color: #f4f4ff;
+}
+.download-section {
+  padding: 5rem 0;
+}
+.download-section .content p {
+  padding: 1rem 0;
+}
+@media (max-width: 991px) {
+  .download-section .content .images img {
+    width: 40%;
+  }
+}
+@media (max-width: 767px) {
+  .download-section .content .images img {
+    width: 30%;
+  }
+}
+.download-section .img {
+  padding: 1.25rem;
+}
+footer {
+  padding: 2.5rem 0;
+  background: #242f51;
+}
+footer .footer-nav {
+  padding-top: 1rem;
+}
+footer .footer-nav .nav-item {
+  margin: 0 0.625rem;
+}
+footer .footer-nav .nav-item .nav-link {
+  color: #fff;
+}
+footer .footer-nav .nav-item .nav-link:hover {
+  color: #fcae61;
+}
+footer .icon {
+  padding: 0.625rem 0;
+}
+footer .icon li {
+  padding: 0.625rem;
+}
+footer .icon li i {
+  color: #fff;
+  font-size: 1.25rem;
+}
+footer .icon li i:hover {
+  color: #fcae61;
+}
+footer .txt p {
+  font-size: 1rem;
+  color: #959595;
+}
+
+body {
+  font-family: "poppins", sans-serif;
+  background-color: #fffffc;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}/*# sourceMappingURL=style.css.map */
